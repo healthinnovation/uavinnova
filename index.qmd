@@ -1,0 +1,39 @@
+---
+page-layout: full
+toc: false
+---
+
+Welcome to the UAVinnova project, a website belonging to the Innovalab organization where the results of different types of flights performed with different types of drones in multiple research projects focused on mapping infectious diseases are made available to the public.
+
+
+```{=html}
+<div class="card-row">
+  <div class="card-column">
+    <div class="card">
+      <a href=https://healthinnovation.github.io/drone-potree/santa-maria/><img src=img/santamaria.jpg style="max-height: 200px"></a>
+      <p>Santa Maria - Test project located in the department of Lima. The use of a thermal Mavic 3 drone was employed.</p>
+    </div>
+  </div>
+  <div class="card-column">
+    <div class="card">
+      <a href=https://linnaean.co><img src=img/dallas.png style="max-height: 200px"></a>
+        <p>Quistocoha - UCSD project located in the department of Loreto. The use of a Mavic 2 drone and Parrot anafi was employed.</p>
+    </div>
+  </div>
+  <div class="card-column">
+    <div class="card">
+      <a href=https://walker-data.com/tidycensus><img src=https://walker-data.com/tidycensus/logo.png style="max-height: 200px"></a>
+        <p>Peña Negra - UCSD project located in the department of Loreto. The use of a Mavic 2 drone and Parrot anafi was employed.</p>
+    </div>
+  </div>
+  <div class="card-column">
+    <div class="card">
+      <a href=https://walker-data.com/census-r><img src=https://walker-data.com/census-r/img/book_cover.png style="max-height: 200px"></a>
+        <p>Varillal - UCSD project located in the department of Loreto. The use of a Mavic 2 drone and Parrot anafi was employed.</p>
+    </div>
+  </div>
+</div>
+
+<br/>
+<br/>
+```

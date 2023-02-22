@@ -1,0 +1,85 @@
+/* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body .page-columns {
+    display: flex;
+    gap: 0;
+}
+
+#quarto-content>* {
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-dark {
+    background-color: #035453;
+}
+
+.navbar-title {
+  font-family: Raleway;
+}
+
+.quarto-title-banner {
+  background-color: #bfbfbd;
+  color: #035453;
+}
+
+a {
+  color: #035453;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.card-column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.card-row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.card-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgb(26, 115, 15, 0.9); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1000px) {
+  .card-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    max-width: 250px;
+  }
+}
