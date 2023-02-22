@@ -11,9 +11,9 @@ website:
   navbar:
     right:
       - icon: github
-        href: https://github.com/walkerke
+        href: https://github.com/innovalav
       - icon: twitter
-        href: https://twitter.com/kyle_e_walker
+        href:  https://github.com/innovalav
 format:
   html:
     theme: cosmo
