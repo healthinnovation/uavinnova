@@ -13,7 +13,7 @@ website:
       - icon: github
         href: https://github.com/innovalav
       - icon: twitter
-        href:  https://github.com/innovalav
+        href: https://twitter.com/innovalab_imt
 format:
   html:
     theme: cosmo
